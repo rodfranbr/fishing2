@@ -1,0 +1,165 @@
+{
+  "version": 1.0,
+  "species": {
+    "fish_0001": {
+      "name": "Bacalhau-de-Askur",
+      "rarity_teb": 1500,
+      "stamina_base": 150,
+      "force_base": 10,
+      "fight_profile": "Lutador de Fundo",
+      "bait_preferences": ["Pedaço de Arenque", "Camarão Glacial", "Tira de Lula", "Caranguejo-Eremita"],
+      "food_habit": "Fundo (Demersal)",
+      "appearance": "Corpo pesado e fusiforme, ligeiramente comprimido lateralmente. A cabeça é grande com um único barbilhão sensorial sob o queixo. A coloração do dorso varia do verde-oliva ao castanho-acinzentado, salpicado de manchas escuras, clareando para um ventre branco-sujo. A linha lateral é clara e arqueada. Três barbatanas dorsais e duas anais.",
+      "weight_categories": [
+        { "category": "Leve", "min_kg": 1, "max_kg": 3, "chance": 40 },
+        { "category": "Médio", "min_kg": 3.1, "max_kg": 8, "chance": 40 },
+        { "category": "Grande", "min_kg": 8.1, "max_kg": 15, "chance": 19 },
+        { "category": "Muito Grande (Rei)", "min_kg": 15.1, "max_kg": 40, "chance": 1 }
+      ]
+    },
+    "fish_0002": {
+      "name": "Arenque-Glacial",
+      "rarity_teb": 8000,
+      "stamina_base": 3000,
+      "force_base": 1,
+      "fight_profile": "Velocista de Superfície",
+      "bait_preferences": ["Krill Prensado", "Ovas de Salmão"],
+      "food_habit": "Meia-água (Pelágico)",
+      "appearance": "Corpo esguio, hidrodinâmico e lateralmente comprimido. Brilho prateado intenso nos flancos e ventre. Dorso de um azul-metálico profundo. Escamas pequenas que caem facilmente. Cauda profundamente bifurcada.",
+      "weight_categories": [
+        { "category": "Leve", "min_kg": 0.3, "max_kg": 0.5, "chance": 40 },
+        { "category": "Médio", "min_kg": 0.51, "max_kg": 0.8, "chance": 40 },
+        { "category": "Grande", "min_kg": 0.81, "max_kg": 1.2, "chance": 19 },
+        { "category": "Muito Grande (Matilha)", "min_kg": 1.21, "max_kg": 2, "chance": 1 }
+      ]
+    },
+    "fish_0003": {
+      "name": "Alabote-Gigante",
+      "rarity_teb": 300,
+      "stamina_base": 250,
+      "force_base": 5,
+      "fight_profile": "Peso-Morto",
+      "bait_preferences": ["Pedaço de Arenque", "Tira de Lula", "Pedaço de Polvo", "Caranguejo-Eremita"],
+      "food_habit": "Fundo (Bentônico)",
+      "appearance": "Corpo extremamente achatado, assimétrico, em forma de losango. Ambos os olhos no lado direito (superior). Cor do lado superior varia de castanho-chocolate a cinza-oliva, mimetizando o fundo. Lado inferior é branco-perolado. Boca grande com dentes cônicos.",
+      "weight_categories": [
+        { "category": "Leve", "min_kg": 5, "max_kg": 15, "chance": 40 },
+        { "category": "Médio", "min_kg": 15.1, "max_kg": 40, "chance": 40 },
+        { "category": "Grande", "min_kg": 40.1, "max_kg": 90, "chance": 19 },
+        { "category": "Muito Grande (Soberano)", "min_kg": 90.1, "max_kg": 180, "chance": 1 }
+      ]
+    },
+    "fish_0004": {
+      "name": "Cavala-Trovão",
+      "rarity_teb": 1200,
+      "stamina_base": 2000,
+      "force_base": 8,
+      "fight_profile": "Errático",
+      "bait_preferences": ["Camarão Glacial", "Krill Prensado", "Pedaço de Arenque"],
+      "food_habit": "Superfície / Meia-água",
+      "appearance": "Corpo em forma de torpedo, construído para velocidade. Dorso azul-metálico elétrico com 25-30 linhas verticais escuras, lembrando raios. Flancos prateados. Pequenas pínulas estabilizadoras atrás das barbatanas dorsal e anal.",
+      "weight_categories": [
+        { "category": "Leve", "min_kg": 0.5, "max_kg": 1, "chance": 40 },
+        { "category": "Médio", "min_kg": 1.1, "max_kg": 1.8, "chance": 40 },
+        { "category": "Grande", "min_kg": 1.81, "max_kg": 3, "chance": 19 },
+        { "category": "Muito Grande (Relâmpago)", "min_kg": 3.1, "max_kg": 5, "chance": 1 }
+      ]
+    },
+    "fish_0005": {
+      "name": "Cantarilho-Vulcano",
+      "rarity_teb": 80,
+      "stamina_base": 200,
+      "force_base": 12,
+      "fight_profile": "Defensivo Agressivo",
+      "bait_preferences": ["Camarão Glacial", "Tira de Lula", "Krill Prensado"],
+      "food_habit": "Fundo (Profundezas)",
+      "appearance": "Corpo robusto, alto e comprimido lateralmente. Olhos desproporcionalmente grandes e pretos. Coloração vermelho-fogo ou laranja-vibrante. Barbatana dorsal com espinhos longos e grossos (venenosos). Cabeça ossuda com placas espinhosas.",
+      "weight_categories": [
+        { "category": "Leve", "min_kg": 0.8, "max_kg": 1.5, "chance": 40 },
+        { "category": "Médio", "min_kg": 1.51, "max_kg": 3, "chance": 40 },
+        { "category": "Grande", "min_kg": 3.1, "max_kg": 5, "chance": 19 },
+        { "category": "Muito Grande (Magma)", "min_kg": 5.1, "max_kg": 8, "chance": 1 }
+      ]
+    },
+    "fish_0006": {
+      "name": "Salmão-Rei-de-Askur",
+      "rarity_teb": 200,
+      "stamina_base": 800,
+      "force_base": 15,
+      "fight_profile": "Acrobático",
+      "bait_preferences": ["Pedaço de Arenque", "Camarão Glacial", "Krill Prensado", "Tira de Lula"],
+      "food_habit": "Meia-água (Anádromo)",
+      "appearance": "Corpo robusto, em forma de torpedo. Coloração prateada brilhante nos flancos, dorso azul-esverdeado. Pequenas manchas pretas irregulares cobrem o dorso e a barbatana caudal. Gengivas na mandíbula inferior são pretas. (Machos em desova ficam escuros/vermelhos com mandíbula em gancho).",
+      "weight_categories": [
+        { "category": "Leve", "min_kg": 2, "max_kg": 5, "chance": 40 },
+        { "category": "Médio", "min_kg": 5.1, "max_kg": 10, "chance": 40 },
+        { "category": "Grande", "min_kg": 10.1, "max_kg": 18, "chance": 19 },
+        { "category": "Muito Grande (Imperial)", "min_kg": 18.1, "max_kg": 30, "chance": 1 }
+      ]
+    },
+    "fish_0007": {
+      "name": "Polaca-Pintada",
+      "rarity_teb": 4000,
+      "stamina_base": 100,
+      "force_base": 5,
+      "fight_profile": "Lutador Leve",
+      "bait_preferences": ["Camarão Glacial", "Minhoca-da-Areia", "Mexilhão de Rocha", "Krill Prensado"],
+      "food_habit": "Fundo / Meia-água",
+      "appearance": "Corpo mais esguio e elegante que o bacalhau, cabeça pontuda. Mandíbula inferior se projeta, sem barbilhão. Dorso verde-oliva escuro, ventre prateado. Linha lateral reta e escura. Marca registrada: uma mancha preta distinta acima da barbatana peitoral.",
+      "weight_categories": [
+        { "category": "Leve", "min_kg": 0.5, "max_kg": 1.2, "chance": 40 },
+        { "category": "Médio", "min_kg": 1.21, "max_kg": 2.5, "chance": 40 },
+        { "category": "Grande", "min_kg": 2.51, "max_kg": 4, "chance": 19 },
+        { "category": "Muito Grande (Sombria)", "min_kg": 4.1, "max_kg": 6, "chance": 1 }
+      ]
+    },
+    "fish_0008": {
+      "name": "Peixe-Lobo-da-Fossa",
+      "rarity_teb": 50,
+      "stamina_base": 180,
+      "force_base": 20,
+      "fight_profile": "Trator",
+      "bait_preferences": ["Caranguejo-Eremita", "Mexilhão de Rocha", "Amêijoa-Funda"],
+      "food_habit": "Fundo (Bentônico)",
+      "appearance": "Corpo longo, pesado, semelhante a uma enguia. Cabeça maciça e ossuda com boca poderosa. Dentes caninos frontais longos e molares traseiros para esmagar. Pele grossa, coriácea, sem escamas, cor azul-acinzentado ou castanho-chocolate com barras escuras.",
+      "weight_categories": [
+        { "category": "Leve", "min_kg": 3, "max_kg": 6, "chance": 40 },
+        { "category": "Médio", "min_kg": 6.1, "max_kg": 10, "chance": 40 },
+        { "category": "Grande", "min_kg": 10.1, "max_kg": 15, "chance": 19 },
+        { "category": "Muito Grande (Esmagador)", "min_kg": 15.1, "max_kg": 22, "chance": 1 }
+      ]
+    },
+    "fish_0009": {
+      "name": "Lula-Vampira-de-Askur",
+      "rarity_teb": 150,
+      "stamina_base": 500,
+      "force_base": 10,
+      "fight_profile": "Jato-Propulsor",
+      "bait_preferences": ["Tira de Lula", "Pedaço de Polvo", "Camarão Glacial"],
+      "food_habit": "Meia-água (Profundo)",
+      "appearance": "Aparência alienígena. Manto macio e bulboso. Oito braços longos e dois tentáculos. Coloração vermelho-sangue a roxo-escuro. Olhos enormes, azul-cobalto. Duas grandes barbatanas laterais. Pele coberta por fotóforos (órgãos bioluminescentes).",
+      "weight_categories": [
+        { "category": "Leve", "min_kg": 0.5, "max_kg": 1, "chance": 40 },
+        { "category": "Médio", "min_kg": 1.1, "max_kg": 2, "chance": 40 },
+        { "category": "Grande", "min_kg": 2.1, "max_kg": 4, "chance": 19 },
+        { "category": "Muito Grande (Abissal)", "min_kg": 4.1, "max_kg": 7, "chance": 1 }
+      ]
+    },
+    "fish_0010": {
+      "name": "Tubarão-Rei-Gélido",
+      "rarity_teb": 5,
+      "stamina_base": 70,
+      "force_base": 30,
+      "fight_profile": "Puxão Sustentado",
+      "bait_preferences": ["Pedaço de Polvo", "Tira de Lula", "Pedaço de Arenque"],
+      "food_habit": "Fundo / Meia-água",
+      "appearance": "Gigante lento e antigo. Corpo massivo, cilíndrico e pesado. Focinho curto e arredondado. Olhos pequenos (muitas vezes com parasitas). Pele extremamente áspera, cor cinza-ardósia escuro ou castanho-lamacento. Barbatanas dorsais pequenas, sem barbatana anal.",
+      "weight_categories": [
+        { "category": "Leve (Jovem)", "min_kg": 50, "max_kg": 100, "chance": 40 },
+        { "category": "Médio (Adulto)", "min_kg": 100.1, "max_kg": 250, "chance": 40 },
+        { "category": "Grande (Matriarca)", "min_kg": 250.1, "max_kg": 500, "chance": 19 },
+        { "category": "Muito Grande (O Antigo)", "min_kg": 500.1, "max_kg": 900, "chance": 1 }
+      ]
+    }
+  }
+}
